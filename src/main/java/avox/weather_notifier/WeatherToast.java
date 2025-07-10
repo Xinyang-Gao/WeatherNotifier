@@ -19,7 +19,7 @@ public class WeatherToast implements Toast {
     public WeatherToast(WeatherTypes weather) {
         this.icon = Identifier.of("weather_notifier", "textures/gui/weather_icons/" + weather.name().toLowerCase() + ".png");
         this.title = (weather.equals(WeatherTypes.CLEAR) ? "§e" : "§b") + Text.translatable("weather_notifier.toast.title").getString();
-        this.message = String.format(Text.translatable("weather_notifier.toast.message").getString(), (Text.translatable("weather_notifier.toast.types." + weather.name().toLowerCase()).getString()));
+        this.message = String.format(Text.translatable("weather_notifier.toast.message." + weather.name().toLowerCase()).getString());
     }
 
     @Override

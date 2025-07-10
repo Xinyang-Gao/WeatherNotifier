@@ -1,0 +1,22 @@
+{
+  "weather_notifier.discord": "Discord",
+
+  "weather_notifier.toast.title": "Vädret ändrades!",
+  "weather_notifier.toast.message.clear": "Det är nu soligt.",
+  "weather_notifier.toast.message.rain": "Nu regnar det.",
+  "weather_notifier.toast.message.snow": "Nu snöar det.",
+  "weather_notifier.toast.message.thunder": "Nu åskar det.",
+
+  "weather_notifier.config.title": "Weather Notifier",
+  "weather_notifier.config.category.general": "Generellt",
+
+  "weather_notifier.config.option.clear_notification": "Klart Notifikationer",
+  "weather_notifier.config.option.rain_notification": "Regn Notifikationer",
+  "weather_notifier.config.option.snow_notification": "Snö Notifikationer",
+  "weather_notifier.config.option.thunder_notification": "Åsk Notifikationer",
+
+  "weather_notifier.config.option.desc.clear_notification": "Om du vill ha en notifikation när vädret blir klart.",
+  "weather_notifier.config.option.desc.rain_notification": "Om du vill ha en notifikation när det börjar regna.",
+  "weather_notifier.config.option.desc.snow_notification": "Om du vill ha en notifikation när det börjar snöa.",
+  "weather_notifier.config.option.desc.thunder_notification": "Om du vill ha en notifikation när det börjar åska."
+}

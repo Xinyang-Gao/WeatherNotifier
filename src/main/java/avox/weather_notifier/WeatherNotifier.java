@@ -27,8 +27,10 @@ public class WeatherNotifier implements ModInitializer {
 				WeatherTypes currentWeather = detectWeather(world, client.player);
 
 				if (lastWeather == null || !lastWeather.equals(currentWeather)) {
+					if (lastWeather != null) {
+						addToast(client, currentWeather);
+					}
 					lastWeather = currentWeather;
-					addToast(client, currentWeather);
 				}
 			}
 		});

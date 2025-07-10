@@ -1,11 +1,11 @@
 {
-  "weather_notifier.toast.title": "Weather Changed!",
-  "weather_notifier.toast.message": "It is now %s.",
+  "weather_notifier.discord": "Discord",
 
-  "weather_notifier.toast.types.clear": "clear",
-  "weather_notifier.toast.types.rain": "raining",
-  "weather_notifier.toast.types.snow": "snowing",
-  "weather_notifier.toast.types.thunder": "thundering",
+  "weather_notifier.toast.title": "Weather Changed!",
+  "weather_notifier.toast.message.clear": "It is now clear.",
+  "weather_notifier.toast.message.rain": "It is now raining.",
+  "weather_notifier.toast.message.snow": "It is now snowing.",
+  "weather_notifier.toast.message.thunder": "It is now thundering.",
 
   "weather_notifier.config.title": "Weather Notifier",
   "weather_notifier.config.category.general": "General",
