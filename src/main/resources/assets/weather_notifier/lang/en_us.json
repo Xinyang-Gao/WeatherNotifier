@@ -1,0 +1,22 @@
+{
+  "weather_notifier.toast.title": "Weather Changed!",
+  "weather_notifier.toast.message": "It is now %s.",
+
+  "weather_notifier.toast.types.clear": "clear",
+  "weather_notifier.toast.types.rain": "raining",
+  "weather_notifier.toast.types.snow": "snowing",
+  "weather_notifier.toast.types.thunder": "thundering",
+
+  "weather_notifier.config.title": "Weather Notifier",
+  "weather_notifier.config.category.general": "General",
+
+  "weather_notifier.config.option.clear_notification": "Clear Notification",
+  "weather_notifier.config.option.rain_notification": "Rain Notification",
+  "weather_notifier.config.option.snow_notification": "Snow Notification",
+  "weather_notifier.config.option.thunder_notification": "Thunder Notification",
+
+  "weather_notifier.config.option.desc.clear_notification": "If you want a notification when the weather becomes clear.",
+  "weather_notifier.config.option.desc.rain_notification": "If you want a notification when it starts to rain.",
+  "weather_notifier.config.option.desc.snow_notification": "If you want a notification when it starts to snow.",
+  "weather_notifier.config.option.desc.thunder_notification": "If you want a notification when it starts to thunder."
+}

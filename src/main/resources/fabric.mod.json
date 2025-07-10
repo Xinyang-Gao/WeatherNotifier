@@ -1,0 +1,38 @@
+{
+	"schemaVersion": 1,
+	"id": "weather_notifier",
+	"version": "${version}",
+	"name": "Weather Notifier",
+	"description": "Sends a toast notification when the weather changes.",
+	"authors": [
+		"Fy17"
+	],
+	"contact": {
+		"issues": "https://discord.gg/6gBT2CgqQj",
+		"sources": "https://github.com/FySjutton/WeatherNotifier"
+	},
+	"license": "WeatherNotifier License",
+	"icon": "assets/weather_notifier/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"main": [
+			"avox.weather_notifier.WeatherNotifier"
+		],
+		"modmenu": [
+			"avox.weather_notifier.config.ModMenuIntegration"
+		]
+	},
+	"mixins": [
+		"weather_notifier.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.14",
+		"minecraft": ">=1.21.6",
+		"java": ">=21",
+		"fabric-api": "*",
+		"yet_another_config_lib_v3": ">=3.7.1"
+	},
+	"recommends": {
+		"modmenu": ">=15.0.0-"
+	}
+}
