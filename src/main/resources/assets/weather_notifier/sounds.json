@@ -1,0 +1,10 @@
+{
+  "notification_sound": {
+    "sounds": [
+      {
+        "name": "weather_notifier:notification_sound",
+        "stream": false
+      }
+    ]
+  }
+}

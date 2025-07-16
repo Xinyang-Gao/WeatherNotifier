@@ -25,6 +25,7 @@ public class WeatherConfig {
     @SerialEntry public boolean rainNotification = true;
     @SerialEntry public boolean snowNotification = false;
     @SerialEntry public boolean thunderNotification = true;
+    @SerialEntry public boolean useNotificationSound = true;
 
     public static Screen configScreen(Screen parent) {
         return YetAnotherConfigLib.create(CONFIG, ((defaults, config, builder) -> builder
@@ -72,6 +73,12 @@ public class WeatherConfig {
                         .binding(true, () -> config.thunderNotification, newVal -> config.thunderNotification = newVal)
                         .controller(opt -> BooleanControllerBuilder.create(opt).coloured(true))
                         .build())
+                    .option(Option.<Boolean>createBuilder()
+                            .name(Text.translatable("weather_notifier.config.option.use_notification_sound"))
+                            .description(OptionDescription.of(Text.translatable("weather_notifier.config.option.desc.use_notification_sound")))
+                            .binding(true, () -> config.useNotificationSound, newVal -> config.useNotificationSound = newVal)
+                            .controller(opt -> BooleanControllerBuilder.create(opt).coloured(true))
+                            .build())
 
                     .build())
 
