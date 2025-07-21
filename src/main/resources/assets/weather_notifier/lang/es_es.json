@@ -1,0 +1,24 @@
+{
+  "weather_notifier.discord": "Discord",
+
+  "weather_notifier.toast.title": "¡El tiempo ha cambiado!",
+  "weather_notifier.toast.message.clear": "Ahora está despejado.",
+  "weather_notifier.toast.message.rain": "Ahora está lloviendo.",
+  "weather_notifier.toast.message.snow": "Ahora está nevando.",
+  "weather_notifier.toast.message.thunder": "Ahora hay tormenta.",
+
+  "weather_notifier.config.title": "Notificador del Tiempo",
+  "weather_notifier.config.category.general": "General",
+
+  "weather_notifier.config.option.use_notification_sound": "Sonido de notificación",
+  "weather_notifier.config.option.clear_notification": "Notificación por despejado",
+  "weather_notifier.config.option.rain_notification": "Notificación por lluvia",
+  "weather_notifier.config.option.snow_notification": "Notificación por nieve",
+  "weather_notifier.config.option.thunder_notification": "Notificación por tormenta",
+
+  "weather_notifier.config.option.desc.use_notification_sound": "Activa un sonido de notificación cuando el tiempo cambie.",
+  "weather_notifier.config.option.desc.clear_notification": "Activa una notificación cuando el tiempo se despeje.",
+  "weather_notifier.config.option.desc.rain_notification": "Activa una notificación cuando empiece a llover.",
+  "weather_notifier.config.option.desc.snow_notification": "Activa una notificación cuando empiece a nevar.",
+  "weather_notifier.config.option.desc.thunder_notification": "Activa una notificación cuando empiece una tormenta."
+}
