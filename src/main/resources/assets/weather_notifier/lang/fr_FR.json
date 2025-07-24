@@ -1,7 +1,7 @@
 {
   "weather_notifier.discord": "Discord",
 
-  "weather_notifier.toast.title": "Le temps a changé!",
+  "weather_notifier.toast.title": "Changement de météo!",
   "weather_notifier.toast.message.clear": "Le temps est clair.",
   "weather_notifier.toast.message.rain": "Il pleut maintenant.",
   "weather_notifier.toast.message.snow": "Il neige maintenant.",
